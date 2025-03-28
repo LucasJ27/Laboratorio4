@@ -9,7 +9,7 @@ const rl = readline.createInterface({
 
 const argv = yargs.option("file", {
   alias: "f",
-  describe: "Nombre del archivo JSON donde se guardarán los datos",
+  describe: "Nombre del archivo JSON donde se guardaran los datos",
   type: "string",
   default: "productos.json",
 }).argv;
